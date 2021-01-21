@@ -16,7 +16,7 @@ class Employee:
     def setName(self,nm):    #setter method for name
         self.__name=nm
 
-    def setSal(self,sal):
+    def setSal(self,sal):   #setter method for salary
         self.__sal=sal
 
 if __name__=="__main__":
