@@ -7,13 +7,13 @@ class Employee:
     def __str__(self):
         return "Id : "+str(self.__id)+"\nName : "+self.__name+"\nSal : "+str(self.__sal)+"\n"
     
-    def getId(self):      #getter method
+    def getId(self):      #getter method for Id
         return self.__id
     
     def getName(self):
         return self.__name
     
-    def setName(self,nm):    #setter method
+    def setName(self,nm):    #setter method for name
         self.__name=nm
 
     def setSal(self,sal):
