@@ -10,7 +10,7 @@ class Employee:
     def getId(self):      #getter method for Id
         return self.__id
     
-    def getName(self):
+    def getName(self):   #getter method for name
         return self.__name
     
     def setName(self,nm):    #setter method for name
